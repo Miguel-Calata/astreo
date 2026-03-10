@@ -1,0 +1,153 @@
+/* ── LAYOUT ──────────────────────────────────────────────── */
+html, body { height: auto !important; }
+
+/* ── NAVBAR ──────────────────────────────────────────────── */
+.navbar-astreo {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    z-index: 100;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navbar-astreo .navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.navbar-astreo .nav-link {
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65) !important;
+    transition: color 0.2s;
+}
+.navbar-astreo .nav-link:hover { color: #fff !important; }
+.navbar-astreo .nav-cta {
+    border-color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.navbar-astreo .nav-cta:hover {
+    background-color: #2a5555;
+    border-color: #2a5555;
+    color: #fff;
+}
+
+/* ── HERO ────────────────────────────────────────────────── */
+.hero-section {
+    min-height: 100vh !important;
+    height: auto !important;
+    width: 100% !important;
+}
+.hero-section::before { transform: none !important; }
+.hero-section .masthead-content {
+    max-width: 52rem;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+/* ── CONTENT SECTIONS ────────────────────────────────────── */
+.section-dark {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5rem 0;
+}
+.section-teal {
+    position: relative;
+    z-index: 2;
+    background: rgba(42, 85, 85, 0.78);
+    padding: 5rem 0;
+}
+.section-title {
+    font-family: "Anybody", sans-serif;
+    font-weight: 600;
+    font-variation-settings: "wdth" 100;
+    letter-spacing: 1px;
+}
+.section-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* ── FEATURE CARDS ───────────────────────────────────────── */
+.feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    height: 100%;
+    transition: background 0.25s, border-color 0.25s;
+}
+.feature-card:hover {
+    background: rgba(42, 85, 85, 0.35);
+    border-color: rgba(42, 85, 85, 0.55);
+}
+.feature-icon {
+    font-size: 1.8rem;
+    color: #5aafaf;
+    margin-bottom: 1rem;
+}
+.feature-card p { color: rgba(255, 255, 255, 0.55); font-size: 0.9rem; }
+
+/* ── STATS ───────────────────────────────────────────────── */
+.stat-number {
+    font-family: "Anybody", sans-serif;
+    font-weight: 600;
+    font-variation-settings: "wdth" 100;
+    font-size: 2.4rem;
+    color: #fff;
+}
+.stat-label {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ── FOOTER ──────────────────────────────────────────────── */
+.footer-astreo {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.92);
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 2.5rem 0 1.5rem;
+}
+.footer-astreo .footer-brand {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-link {
+    color: rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+.footer-link:hover { color: #fff; }
+.footer-social a {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 1.1rem;
+    margin-left: 1.2rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-social a:hover { color: #fff; }
+.footer-copy {
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 0.72rem;
+}
+.footer-divider {
+    border-color: rgba(255, 255, 255, 0.07);
+    margin: 1.5rem 0 1rem;
+}
